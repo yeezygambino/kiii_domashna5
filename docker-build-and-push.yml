@@ -22,8 +22,8 @@ jobs:
       username: $[{ secrets.DOCKERHUB_USERNAME }]
       password: $[{ secrets.DOCKERHUB_TOKEN }]
     -
-      name: Build any push
-      uses: docker/build-push-action@v4
+      name: Build and push Docker images
+      uses: docker/build-push-action@v6.15.0
       with:
         push: true
         tags: yeezygambino1987/kiii-domashna5:latest
