@@ -26,4 +26,4 @@ jobs:
       uses: docker/build-push-action@v6.15.0
       with:
         push: true
-        tags: yeezygambino1987/kiii-domashna5:latest
+        tags: yeezygambino1987/kiii_domashna5:latest
