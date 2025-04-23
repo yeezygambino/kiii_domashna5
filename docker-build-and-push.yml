@@ -27,3 +27,4 @@ jobs:
         with:
           push: true
           tags: yeezygambino1987/kiii_domashna5:latest
+
